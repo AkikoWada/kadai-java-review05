@@ -58,7 +58,9 @@ public class Review05 {
         } catch (SQLException e) {
             System.err.println("データベースに異常が発生しました。");
             e.printStackTrace();
+
         } finally {
+
         // 接続を閉じる
             if( rs != null ){
                 try {
@@ -115,4 +117,3 @@ public class Review05 {
         return result;
     }
 }
-
