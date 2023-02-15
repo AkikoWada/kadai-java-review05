@@ -41,7 +41,6 @@ public class Review05 {
 
             rs = pstmt.executeQuery();
 
-
             // 結果を表示する
             while( rs.next() ){
                 // name列の値を取得
@@ -49,7 +48,6 @@ public class Review05 {
                 // age列の値を取得
                 int age = rs.getInt("age");
                 // 取得した値を表示
-                System.out.println("名前と年齢を表示");
                 System.out.println(name);
                 System.out.println(age);
             }
